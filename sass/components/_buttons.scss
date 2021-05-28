@@ -1,0 +1,29 @@
+.booking__button{
+    @include button;
+    width:220px;
+    margin-top:-15px;
+    & a{
+        color:white;
+    }
+    &:hover{
+        cursor: pointer;
+        opacity: 0.73;
+        transition-duration: 400ms;
+    }
+
+}
+.menu__button{
+    @include button;
+    align-self: center;
+    margin-top:45px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:200px;
+    height:50px;
+    &:hover{
+        cursor: pointer;
+        opacity: 0.73;
+        transition-duration: 400ms;
+    }
+}
