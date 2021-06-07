@@ -3,10 +3,12 @@
 @import "./utils/mixins";
 @import "./utils/extensions";
 
+@import "./base/animations";
 @import "./base/base";
 
 
 @import "./components/buttons";
+
 
 @import "./layout/header";
 @import "./layout/nav";
